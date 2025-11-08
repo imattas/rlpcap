@@ -1,1 +1,21 @@
+# Ignore build and distribution directories
+dist/
+build/
+*.egg-info/
+rlpcap.egg-info/
 
+# Ignore Python packaging configs
+setup.cfg
+pyproject.toml
+
+# Ignore common Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore virtual environments
+.env/
+.venv/
+venv/
